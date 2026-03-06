@@ -104,3 +104,73 @@ body {
     padding-right: 30px;
 }
 
+#moons {
+    margin-top: 20px;
+    margin-left: 18vw;
+    display: grid;
+    width: 500px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 30px;
+    background-color: rgb(40, 40, 40);
+    color: white ;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#moons h3 {
+    grid-column: 1 / -1;
+    margin-left: 200px;
+}
+
+.moon {
+    text-align: center;
+}
+
+.moon img {
+    width: 200px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.moon p{
+    margin-left: 70px;
+}
+
+.text {
+    display: none;
+    margin-top: 8px;
+}
+
+#intro{
+    margin-top: 25px;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#timeline{
+    margin-top: 25px;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#resources{
+    
+}
